@@ -1,14 +1,14 @@
 # rollup-plugin-source-map-explorer
----
+
 ### Requirements
----
+
 This plugin depends on `source-map-explorer` and `rollup`.
 To install `source-map-explorer`, run:
 `
 npm install -g source-map-explorer
 `
 ## Installation
----
+
 `
 npm install --save-dev rollup-plugin-source-map-explorer
 `
@@ -18,7 +18,7 @@ yarn add --dev rollup-plugin-source-map-explorer
 `
 
 ## Usage
----
+
 ```
 import visualizeSource from 'rollup-plugin-source-map-explorer';
 
@@ -31,7 +31,7 @@ plugins: [
 ```
 
 ## Options
----
+
 Reference [source-map-explorer](https://github.com/danvk/source-map-explorer#readme "source-map-explorer") docs to learn more about these options.
 ### `filename`
 Type: `string`
