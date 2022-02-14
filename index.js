@@ -1,6 +1,6 @@
-import { execSync } from 'child_process';
+const execSync = require('child_process').execSync;
 
-export default function(options = {}) {
+module.exports = function(options = {}) {
     const {
         filename = 'source-stats.html',
         format = 'html',
