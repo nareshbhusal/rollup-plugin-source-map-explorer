@@ -1,0 +1,29 @@
+{
+  "name": "rollup-plugin-source-map-explorer",
+  "version": "1.0.0",
+  "description": "Use source-map-explorer to generate a visual representation of your source maps with rollup",
+  "author": "nareshbhusal",
+  "license": "MIT",
+  "bugs": "https://github.com/nareshbhusal/rollup-plugin-source-map-explorer/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nareshbhusal/rollup-plugin-source-map-explorer.git"
+  },
+  "keywords": [
+    "rollup-plugin",
+    "visualizer",
+    "sourcemap analyzer",
+    "bundle analyzer",
+    "diagram"
+  ],
+  "peerDepenencies": {
+    "rollup": "^1.0.0 || ^2.0.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
