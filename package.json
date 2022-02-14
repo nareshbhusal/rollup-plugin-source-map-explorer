@@ -2,7 +2,7 @@
   "name": "rollup-plugin-source-map-explorer",
   "version": "1.1.0",
   "description": "Use source-map-explorer to generate a visual representation of your source maps with rollup",
-  "author": "",
+  "author": "nareshbhusal",
   "license": "ISC",
   "bugs": "https://github.com/nareshbhusal/rollup-plugin-source-map-explorer/issues",
   "repository": {
@@ -14,7 +14,8 @@
     "rollup": "^1.0.0 || ^2.0.0"
   },
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "types": "index.d.ts",
+  "devDependencies": {
+    "@types/node": "^17.0.17"
   }
 }

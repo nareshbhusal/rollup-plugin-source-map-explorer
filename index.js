@@ -1,6 +1,6 @@
 const execSync = require('child_process').execSync;
 
-module.exports = function(options = {}) {
+module.exports = function visualizeSource(options = {}) {
     const {
         filename = 'source-stats.html',
         format = 'html',
