@@ -16,7 +16,7 @@ module.exports = function visualizeSource(options = {}) {
         load(outputOptions) {
             this.addWatchFile(outputOptions.file);
         },
-        generateBundle(outputOptions) {
+        writeBundle(outputOptions) {
             execSync([
                 "source-map-explorer",
                 outputOptions.file,
