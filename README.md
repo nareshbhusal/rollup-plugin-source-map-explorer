@@ -38,7 +38,7 @@ Type: `string`<br>
 Default: `source-stats.html`
 
 Name of the generated visualisation file.
-#### `format`
+### `format`
 Type: `string`<br>
 Default: `html`
 
